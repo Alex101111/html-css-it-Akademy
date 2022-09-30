@@ -2,27 +2,30 @@ body {
     height: 100%;
 
 }
-html{
+
+html {
     height: 100%;
 }
-#app{
+
+#app {
     display: flex;
     flex-direction: row;
 }
 
-.section-left  h3 {
+.section-left h3 {
     text-align: center;
     margin-bottom: 80px;
 }
-p{
+
+p {
     margin-left: 20px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.section-left{
+.section-left {
     background: linear-gradient(#535662, #568b99);
     display: flex;
     flex-direction: column;
@@ -31,7 +34,7 @@ h1{
 
 }
 
-.image-about{
+.image-about {
     display: flex;
     flex-direction: column;
     border-color: white !important;
@@ -41,38 +44,42 @@ h1{
     margin: 10px;
 
 }
-img{
+
+img {
     width: 150px;
     height: 150px;
     background-color: white;
     border-radius: 50%;
-    
-}
-.image-div{
-    margin-top: -60px;
-    text-align: center;
-position: relative;
+
 }
 
-.image-about > p {
+.image-div {
+    margin-top: -60px;
+    text-align: center;
+    position: relative;
+}
+
+.image-about>p {
     margin-top: -11px;
     display: flex;
+
 }
 
 ul li {
     list-style-type: none;
 }
 
-.contact-infos > ul >li {
+.contact-infos>ul>li {
     text-align: center;
     margin-bottom: 20px;
-    background-color:  rgba(255, 255, 255, 0.144);
+    background-color: rgba(255, 255, 255, 0.144);
     border-radius: 30px;
     height: 50px;
     display: flex;
     align-items: center;
 }
-i{
+
+i {
     padding-right: 15px;
     margin: 10px;
 }
@@ -82,12 +89,12 @@ i{
     justify-content: center;
 }
 
-.contact-infos > ul{
+.contact-infos>ul {
     width: 80%;
 }
 
 
-.language-points > ul >li {
+.language-points>ul>li {
     background-color: white;
     height: 20px;
     width: 20px;
@@ -97,30 +104,55 @@ i{
     border-color: white;
     border: solid;
 }
-.language-points > ul{
+
+.language-points>ul {
     display: flex;
 }
 
-.language-points{
+.language-points {
     display: flex;
     flex-direction: row;
 }
 
-.german > ul > li:nth-last-child(-n+3) {
-background-color: #568b99;
+.german>ul>li:nth-last-child(-n+3) {
+    background-color: #568b99;
 }
 
-.italian > ul > li:nth-last-child(-n+2) {
+.italian>ul>li:nth-last-child(-n+2) {
     background-color: #568b99;
-    }
+}
 
-.french > ul > li:nth-last-child(-n+1) {
+.french>ul>li:nth-last-child(-n+1) {
     background-color: #568b99;
-    }
+}
+
+.section-left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.about-me {
+    padding-top: 10px;
+}
 
 
+.section-left h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #FFFFFF;
 
-
+}
 
 /* SECTION RIGHT 
 --
@@ -133,10 +165,124 @@ background-color: #568b99;
 */
 
 .section-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #2C8598;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title h3 {
+    margin: 20px
 }
 
 
+.section-right h4 {
+    color: #2C8598;
+}
+
+.section-right h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.section-right h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #2C8598;
+}
+
+.my-skills img {
+    height: 40px;
+    width: 40px;
+}
+
+.my-skills {
+
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hobbies-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies {
+    width: 100%;
+}
+
+.line {
+    border-bottom: solid;
+    position: absolute;
+    top: 20px;
+    color: #2C8598;
+    width: 450%;
+    margin-left: 90%;
+}
+
+.section-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #847D7D;
+
+
+}
+
+
+.title h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.hobbies-list li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 12px;
+    text-transform: capitalize;
+
+    color: #847D7D;
+}
